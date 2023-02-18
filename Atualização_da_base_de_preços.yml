@@ -1,0 +1,7 @@
+
+## Agora vamos exportar a nova base de preços atualizado 
+
+# Passo 5: Exportar a base de preços atualizado
+# Exportando a balela para o execel
+tabela.to_excel("Produtos_Novo.xlsx", index=False)# Se deixar o mesmo nome ira substituir o arquivo 
+# index=False-> Para tirar o indice da tabela de quando vc exporta 
